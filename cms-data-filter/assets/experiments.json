@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "Alpha PCR",
+    "desc": "The alpha protocol for polymerase chain reaction",
+    "settings": ["heat low", "stir med", "vibrate low"],
+    "color": "#FF5733",
+    "fx": "(x+1)*5",
+    "log": "Alpha PCR Static Log Output",
+    "alert": "",
+    "pval+": 30,
+    "method": {
+      "material": ["pcr","dna"],
+      "process": "log,stir 20,sleep 10,vibrate 30,heat 30,alert"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Beta PCR",
+    "desc": "The beta protocol for polymerase chain reaction",
+    "settings": ["heat med", "stir med", "vibrate low"],
+    "color": "#FFBD33",
+    "fx": "(x-1)*4",
+    "log": "Beta PCR",
+    "alert": "Beta PCR",
+    "pval+": 10,
+    "method": {
+      "material": ["pcr","dna","material x"],
+      "process": "log,heat 20,stir 20,sleep 20,stir 40,alert"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Omega PCR",
+    "desc": "The omega protocol for polymerase chain reaction",
+    "settings": ["heat high", "stir low", "vibrate low"],
+    "color": "#33FFBD",
+    "fx": "6*x",
+    "log": "Omega PCR is experimental, please take caution!",
+    "alert": "Omega PCR - Take Caution!",
+    "pval+": 35,
+    "method": {
+      "material": ["pcr","dna","material z"],
+      "process": "log,alert,sleep 10,heat 30,stir 30,sleep 30,stir 10"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Micro PCR",
+    "desc": "The micro protocol for polymerase chain reaction",
+    "settings": ["heat low", "stir low", "vibrate med"],
+    "color": "#75FF33",
+    "fx": "x*0.1",
+    "log": "Micro PCR is small",
+    "alert": "",
+    "pval+": 2,
+    "method": {
+      "material": ["pcr","dna","mini 1"],
+      "process": "log,stir 10,sleep 5,vibrate 30,stir 10,sleep 5,stir 10,heat 10"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Distill",
+    "desc": "Distillation experiment",
+    "settings": ["heat low", "stir low", "vibrate med"],
+    "color": "#33A4FF",
+    "fx": "x+3",
+    "log": "Watching this is calming...",
+    "alert": "",
+    "pval+": 22,
+    "method": {
+      "material": ["pcr","dna","h2o"],
+      "process": "log,stir 10,sleep 5,vibrate 40,heat 5,stir 9,sleep 10,log"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Toast It",
+    "desc": "This is the burnt toast experiment",
+    "settings": ["heat high", "stir high", "vibrate high"],
+    "color": "#FF333E",
+    "fx": "x*1000",
+    "log": "Do you smell something?",
+    "alert": "It's on fire!!!",
+    "pval+": 1000,
+    "method": {
+      "material": ["brain","bread"],
+      "process": "alert,heat 100,vibrate 20,stir 30,log"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Go Green",
+    "desc": "Botany experiment",
+    "settings": ["heat low", "stir low", "vibrate low"],
+    "color": "#33FF8D",
+    "fx": "420-x",
+    "log": "Dave???",
+    "alert": "Dave's not here man!",
+    "pval+": 420,
+    "method": {
+      "material": ["person","green spice"],
+      "process": "log,heat 30,alert"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Booze Brew",
+    "desc": "a hoppy brew",
+    "settings": ["heat med", "stir low", "vibrate low"],
+    "color": "#FFA233",
+    "fx": "(x+x)*0.08",
+    "log": "Have you seen my beer?",
+    "alert": "Burp!",
+    "pval+": 0.08,
+    "method": {
+      "material": ["person","alcohol"],
+      "process": "log,sleep 5,heat 5,vibrate 5,log,alert"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Racecar",
+    "desc": "vrooooooooooom!",
+    "settings": ["heat high", "stir low", "vibrate high"],
+    "color": "#FF3390",
+    "fx": "(x-2)*25",
+    "log": "3, 2, 1",
+    "alert": "Go!",
+    "pval+": 100,
+    "method": {
+      "material": ["person","car"],
+      "process": "stir 5,log,alert,sleep 50,vibrate 59"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Spaceship",
+    "desc": "pew pew pew",
+    "settings": ["heat low", "stir low", "vibrate high"],
+    "color": "#3C3C40",
+    "fx": "(x+355)-(x*0.5)",
+    "log": "The final fronteer",
+    "alert": "Liftoff!",
+    "pval+": 1010001,
+    "method": {
+      "material": ["person","space"],
+      "process": "alert,heat 50,stir 50,vibrate 50,log"
+    }
+  }
+]

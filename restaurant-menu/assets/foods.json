@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Hotdog",
+        "price": 1.5,
+        "imgName": "hotdog.png"
+    },
+    {
+        "id": 2,
+        "name": "Burger",
+        "price": 3.5,
+        "imgName": "burger.png"
+    },
+    {
+        "id": 3,
+        "name": "Pizza",
+        "price": 8.0,
+        "imgName": "pizza.png"
+    },
+    {
+        "id": 4,
+        "name": "Sandwich",
+        "price": 3.5,
+        "imgName": "sandwich.png"
+    },
+    {
+        "id": 5,
+        "name": "Taco",
+        "price": 2.5,
+        "imgName": "taco.png"
+    },
+    {
+        "id": 6,
+        "name": "Fries",
+        "price": 1.0,
+        "imgName": "fries.png"
+    },
+    {
+        "id": 7,
+        "name": "Donut",
+        "price": 1.0,
+        "imgName": "donut.png"
+    },
+    {
+        "id": 8,
+        "name": "Pepsi",
+        "price": 0.5,
+        "imgName": "pepsi.png"
+    }
+]
