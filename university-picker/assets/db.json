@@ -257,22 +257,6 @@
       "university": "De Haagse Hogeschool"
     },
     {
-      "id": 12,
-      "firstName": "Kamran",
-      "lastName": "De Waardt",
-      "dob": "1990-11-26",
-      "age": 32,
-      "gender": "male",
-      "email": "kamran.dewaardt@example.com",
-      "phone": "(225)-767-0130",
-      "picture": "https://randomuser.me/api/portraits/men/53.jpg",
-      "country": "Netherlands",
-      "location": "2272, Geldersesteeg, Kaalheide, Overijssel, 48852",
-      "latitude": "37.2652",
-      "longitude": "-162.2052",
-      "university": "Hogeschool Inholland"
-    },
-    {
       "id": 25,
       "firstName": "Ava",
       "lastName": "Chan",
