@@ -9,9 +9,9 @@ If to use Python, download the "angular" directory and navigate inside it in a t
 
 For video demonstration, please visit the project website at <a href="https://handypan.github.io/Angular-Project-Collection/" target="_blank">https://handypan.github.io/Angular-Project-Collection/</a>.
 
-Project 01 - Restaurant Menu<br>
-Project 02 - CMS Data Filter<br>
-Project 03 - University Picker<br>
+[Project 01 - Restaurant Menu](https://handypan.github.io/Angular-Project-Collection/restaurant-menu/)<br>
+[Project 02 - CMS Data Filter](https://handypan.github.io/Angular-Project-Collection/cms-data-filter/)<br>
+[Project 03 - University Picker](https://handypan.github.io/Angular-Project-Collection/university-picker/)<br>
 
 
 
