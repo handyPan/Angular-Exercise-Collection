@@ -14,6 +14,7 @@ For video demonstration, please visit the project website at <a href="https://ha
 [Exercise 003 - University Picker](https://handypan.github.io/Angular-Exercise-Collection/ex003-university-picker/)<br>
 [Exercise 004 - Quill Text Editor](https://handypan.github.io/Angular-Exercise-Collection/ex004-quill-text-editor/)<br>
 [Exercise 005 - Firebase CRUD](https://handypan.github.io/Angular-Exercise-Collection/ex005-firebase-crud/)<br>
+[Exercise 006 - Angular Exercise Collection](https://handypan.github.io/Angular-Exercise-Collection/ex006-angular-exercise-collection/)<br>
 
 
 
